@@ -7,3 +7,78 @@
   --Linear-135deg-from: hsl(0, 0%, 100%), to hsl(0, 100%, 98%);
   --Linear-135deg-from: hsl(0, 80%, 86%), to hsl(0, 74%, 74%);
 }
+
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "DM sans", sans-serif;
+}
+
+.image-wrapper {
+  background-image: url("../base-apparel-coming-soon-master/images/hero-desktop.jpg");
+  background-repeat: no-repeat;
+  width: 100%;
+  height: auto;
+  position: relative;
+  right: 34%;
+}
+
+section {
+  display: flex;
+  gap: 50px;
+}
+
+.content-wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin-top: 50px;
+  position: relative;
+  right: 50%;
+}
+
+.content-wrapper > img {
+  width: 150px;
+}
+
+h1 {
+  font-size: 70px;
+  letter-spacing: 10px;
+  font-weight: 700;
+  color: var(--Dark-Grayish-Red);
+}
+
+h1 > span {
+  color: var(--Desaturated-Red);
+  font-weight: 200;
+}
+
+p {
+  width: 410px;
+  color: var(--Desaturated-Red);
+  font-weight: 500;
+}
+
+input {
+  width: 350px;
+  padding-top: 35px;
+  border-radius: 30px;
+  border: 1px solid var(--Desaturated-Red);
+}
+
+form > button {
+  padding: 15px 50px;
+  border-radius: 40px;
+  background-color: var(--Desaturated-Red);
+  border: none;
+  position: relative;
+  bottom: 50%;
+  left: 59.5%;
+}
+
+input::placeholder {
+  padding-left: 30px;
+  text-align: start;
+  color: var(--Desaturated-Red);
+}
